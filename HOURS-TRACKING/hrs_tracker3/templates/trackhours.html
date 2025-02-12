@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}Track Hours{% endblock %}
+{% block content %}
+<h2>Track Hours Taught</h2>
+<form method="POST">
+    {{ form.hidden_tag() }}
+    <div class="form-group">
+        {{ form.date.label(class="form-label") }}
+        {{ form.date(class="form-control") }}
+    </div>
+    <div class="form-group">
+        {{ form.hours_taught.label(class="form-label") }}
+        {{ form.hours_taught(class="form-control") }}
+    </div>
+    <div class="form-group">
+        {{ form.submit(class="btn btn-primary") }}
+    </div>
+</form>
+{% endblock %}

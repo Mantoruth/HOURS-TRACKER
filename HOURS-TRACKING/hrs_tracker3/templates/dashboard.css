@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0;
+}
+
+li {
+    margin: 10px 0; /* Add some space between the list items */
+}
+
+a {
+    text-decoration: none; /* Remove underline from links */
+    color: #007bff; /* Bootstrap primary color */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+a:hover {
+    color: #0056b3; /* Darker shade on hover */
+}
+
+a:visited {
+    color: #6f42c1; /* Color for visited links */
+}
+
+.container {
+    max-width: 600px; /* Center the content */
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-hours-link {
+    display: inline-block; /* Make the link a block element */
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #28a745; /* Green background */
+    color: white; /* White text */
+    border-radius: 4px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.add-hours-link:hover {
+    background-color: #218838; /* Darker green on hover */
+}
